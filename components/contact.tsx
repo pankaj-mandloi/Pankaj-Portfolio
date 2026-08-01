@@ -114,6 +114,7 @@ export function Contact() {
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
                   className="rounded-md border border-border bg-background px-4 py-2.5 text-sm text-foreground outline-none transition-colors focus:border-accent"
                   placeholder="Your name"
+                  suppressHydrationWarning
                 />
               </div>
               <div className="grid gap-2">
@@ -128,6 +129,7 @@ export function Contact() {
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
                   className="rounded-md border border-border bg-background px-4 py-2.5 text-sm text-foreground outline-none transition-colors focus:border-accent"
                   placeholder="you@example.com"
+                  suppressHydrationWarning
                 />
               </div>
               <div className="grid gap-2">
@@ -142,11 +144,13 @@ export function Contact() {
                   onChange={(e) => setForm({ ...form, message: e.target.value })}
                   className="resize-none rounded-md border border-border bg-background px-4 py-2.5 text-sm text-foreground outline-none transition-colors focus:border-accent"
                   placeholder="Tell me about your project..."
+                  suppressHydrationWarning
                 />
               </div>
               <button
                 type="submit"
                 className="rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+                suppressHydrationWarning
               >
                 Send message
               </button>

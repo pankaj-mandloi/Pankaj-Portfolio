@@ -19,20 +19,20 @@ const projects = [
     tags: ["React.js", "Protected Routes", "Dashboards", "State Management"],
   },
   {
-    title: "Movie Ticket Booking & Payment System",
-    period: "Personal Project · Nov–Dec 2024",
-    link: null,
+    title: "CollabAI — Real-Time Team Collaboration Platform",
+    period: "Personal Project",
+    link: "https://collabai-workspace-1.onrender.com/",
     description:
-      "Responsive movie booking flow with seat selection and global cart state via Context API. Integrated the Razorpay payment gateway, real-time notifications with React-Toastify, plus search, pagination, and date filters.",
-    tags: ["MERN Stack", "Razorpay API", "Context API", "React-Toastify"],
+      "Full-stack real-time collaboration platform with live chat, Kanban task boards, and a document editor featuring multi-workspace support, role-based access control, and Clerk authentication. Integrated Google Gemini with a custom RAG pipeline and MongoDB Atlas Vector Search to power an in-app AI agent.",
+    tags: ["Next.js", "Express.js", "MongoDB", "Socket.io", "Clerk", "Gemini API", "RAG"],
   },
   {
-    title: "E-Tender Website",
-    period: "Personal Project · Aug–Oct 2024",
-    link: null,
+    title: "DocChat — AI-Powered PDF Chat Application",
+    period: "Personal Project",
+    link: "https://docchat-frontend-6p2p.onrender.com/",
     description:
-      "Tender listing, quotation submission, and a bid comparison dashboard built with a component-based architecture. Role-based navigation with React Router, protected routes for companies and suppliers, and full CRUD via REST APIs.",
-    tags: ["MongoDB", "Express.js", "React.js", "Node.js", "React Router"],
+      "Full-stack RAG application where users upload PDFs and ask questions in natural language. Engineered complete pipeline using Gemini Embedding API and MongoDB Atlas Vector Search with real-time streaming answers and page-level source citations. Includes JWT authentication, multi-document chat, and rate limiting.",
+    tags: ["MERN Stack", "Gemini API", "MongoDB Atlas Vector Search", "RAG", "JWT"],
   },
 ]
 

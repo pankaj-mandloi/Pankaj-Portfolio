@@ -1,4 +1,4 @@
-import { SectionHeading } from "@/components/section-heading"
+import { SectionHeading } from "@/components/section-heading";
 
 const skillGroups = [
   {
@@ -7,15 +7,39 @@ const skillGroups = [
   },
   {
     category: "Frontend",
-    skills: ["React.js", "Next.js", "Redux", "Redux-Saga", "React Hooks", "MUI", "Bootstrap"],
+    skills: [
+      "React.js",
+      "Next.js",
+      "Redux",
+      "Redux-Saga",
+      "Zustand",
+      "Tailwind CSS",
+      "ShadCN UI",
+    ],
   },
   {
     category: "Backend",
-    skills: ["Node.js", "Express.js", "REST API", "JWT Authentication"],
+    skills: [
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "REST API",
+      "JWT Authentication",
+      "Clerk",
+    ],
   },
   {
     category: "Databases",
     skills: ["MongoDB", "SQL"],
+  },
+  {
+    category: "AI & Integrations",
+    skills: [
+      "Gemini API",
+      "RAG",
+      "MongoDB Atlas Vector Search",
+      "Aggregation Pipeline",
+    ],
   },
   {
     category: "Tools",
@@ -23,9 +47,15 @@ const skillGroups = [
   },
   {
     category: "Concepts",
-    skills: ["Data Structures", "Algorithms", "OOP", "DBMS", "Operating Systems", "Computer Networks"],
+    skills: [
+      "Data Structures and Algorithms",
+      "OOP",
+      "DBMS",
+      "Operating Systems",
+      "Computer Networks",
+    ],
   },
-]
+];
 
 export function Skills() {
   return (
@@ -39,7 +69,9 @@ export function Skills() {
               key={group.category}
               className="rounded-xl border border-border bg-card p-6 transition-colors hover:border-accent"
             >
-              <h3 className="font-heading text-lg font-semibold text-foreground">{group.category}</h3>
+              <h3 className="font-heading text-lg font-semibold text-foreground">
+                {group.category}
+              </h3>
               <div className="mt-4 flex flex-wrap gap-2">
                 {group.skills.map((skill) => (
                   <span
@@ -55,5 +87,5 @@ export function Skills() {
         </div>
       </div>
     </section>
-  )
+  );
 }

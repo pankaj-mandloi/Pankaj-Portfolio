@@ -5,13 +5,14 @@ const experiences = [
     role: "MERN Stack Developer",
     company: "Digiprima Technologies",
     location: "Indore, India",
-    period: "Dec 2024 – Mar 2026",
+    period: "Dec 2024 – May 2026",
     points: [
       "Developed Pearl Streets, a multi-service platform with Admin, Vendor, and Customer roles.",
-      "Created 50+ reusable React components and integrated 20+ REST APIs using Axios.",
-      "Implemented multilingual support for 13 languages with react-i18next.",
-      "Improved SEO and page speed using Next.js SSR, lazy loading, and code splitting.",
-      "Built role-based portals for the BRYAIR Management System with real-time machine monitoring.",
+      "Architected 50+ reusable React components using Hooks, managed global state with Redux-Saga, and integrated 20+ REST APIs using Axios.",
+      "Implemented multilingual support for 13 languages using react-i18next for complete UI localization.",
+      "Improved SEO and page load speed using Next.js SSR, lazy loading, and code splitting.",
+      "Built Admin, Customer and Service Engineer portals for BRYAIR Management System with role-based UI navigation, protected routes and real-time machine monitoring.",
+      "Implemented frontend pagination, search filters and real-time alert notifications to improve dashboard responsiveness.",
     ],
   },
   {
@@ -20,7 +21,7 @@ const experiences = [
     location: "Indore, India",
     period: "Sep 2024 – Nov 2024",
     points: [
-      "Built responsive UI components using React.js and integrated REST APIs with Axios.",
+      "Built responsive UI components using React.js and integrated REST APIs using Axios for data handling.",
       "Supported backend API development using Node.js, Express.js, and MongoDB.",
     ],
   },

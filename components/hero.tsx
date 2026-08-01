@@ -21,10 +21,11 @@ export function Hero() {
             MERN Stack Developer
           </p>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            I build scalable, multi-role web platforms with React.js, Next.js,
-            Node.js, and MongoDB — from reusable component libraries and global
-            state management to REST API integration and performance-tuned
-            interfaces.
+            I build production-grade web applications — crafting reusable
+            components, integrating REST APIs, managing complex state with
+            Redux-Saga, and delivering full-stack solutions with Node.js,
+            MongoDB, and modern AI capabilities like Gemini API and RAG
+            pipelines.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
