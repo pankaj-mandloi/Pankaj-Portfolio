@@ -21,7 +21,7 @@ const projects = [
   {
     title: "CollabAI — Real-Time Team Collaboration Platform",
     period: "Personal Project",
-    link: "https://collabai-workspace-1.onrender.com/",
+    link: "https://collabai-workspace.vercel.app/",
     description:
       "Full-stack real-time collaboration platform with live chat, Kanban task boards, and a document editor featuring multi-workspace support, role-based access control, and Clerk authentication. Integrated Google Gemini with a custom RAG pipeline and MongoDB Atlas Vector Search to power an in-app AI agent.",
     tags: ["Next.js", "Express.js", "MongoDB", "Socket.io", "Clerk", "Gemini API", "RAG"],
